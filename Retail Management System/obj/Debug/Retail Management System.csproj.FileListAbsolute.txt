@@ -1,0 +1,7 @@
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\bin\Debug\Retail Management System.exe.config
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\bin\Debug\Retail Management System.exe
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\bin\Debug\Retail Management System.pdb
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\obj\Debug\Retail Management System.csproj.AssemblyReference.cache
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\obj\Debug\Retail Management System.csproj.CoreCompileInputs.cache
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\obj\Debug\Retail Management System.exe
+C:\Users\matty\Documents\GitHub\2026_S1_-W102-_cLocked-In\Data-process-and-software-modelling\Retail Management System\obj\Debug\Retail Management System.pdb
