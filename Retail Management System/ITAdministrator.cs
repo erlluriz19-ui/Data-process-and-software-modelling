@@ -74,9 +74,9 @@ namespace Retail_Management_System
 
             // NFR7 — Regulatory compliance
             Console.WriteLine("[SYSTEM] Checking regulatory compliance (NFR7)...");
-            Console.WriteLine("[SYSTEM]   NZPA compliance         : PASS");
+            Console.WriteLine("[SYSTEM]   Privacy Act 2020         : PASS");
             Console.WriteLine("[SYSTEM]   PCI-DSS compliance      : PASS");
-            Console.WriteLine("[SYSTEM]   Last audit              : 2024-03-01");
+            Console.WriteLine("[SYSTEM]   Last audit              : 2026-03-24");
 
             // NFR6 — Inventory sync across all stores
             Console.WriteLine("[SYSTEM] Checking inventory sync across stores...");
