@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
+    // Represents a system-generated report (sales or inventory).
+    // Association relationship — Manager ──── Report (0..*).
+    // Report knows how to generate and export itself (high cohesion).
+    // FR17, FR18, FR19
     public class Report
     {
-
         public int reportID;
-
         public string type;
 
+        // FR17, FR18 — Generates report content based on the type field.
+        // "sales" = sales summary (FR17), "inventory" = stock overview (FR18).
+        // Switch handles each report type separately (high cohesion — Report builds itself).
         public void generateReport(string type)
         {
-
             if (string.IsNullOrWhiteSpace(type))
             {
                 Console.WriteLine("[REPORT] Report type cannot be empty.");
@@ -30,7 +34,7 @@ namespace Retail_Management_System
             switch (type.ToLower())
             {
                 case "sales":
-
+                    // FR17 — Sales report with revenue, transactions, and department breakdown
                     Console.WriteLine("          SALES REPORT                   ");
                     Console.WriteLine("==========================================");
                     Console.WriteLine($"  Report ID        : {reportID}");
@@ -50,7 +54,7 @@ namespace Retail_Management_System
                     break;
 
                 case "inventory":
-
+                    // FR18 — Inventory report with SKU count, sync status, and alerts
                     Console.WriteLine("        INVENTORY REPORT                  ");
                     Console.WriteLine("==========================================");
                     Console.WriteLine($"  Report ID        : {reportID}");
@@ -68,7 +72,7 @@ namespace Retail_Management_System
                     break;
 
                 default:
-
+                    // Handles any custom report type
                     Console.WriteLine($"  CUSTOM REPORT — Type: {type}           ");
                     Console.WriteLine("==========================================");
                     Console.WriteLine($"  Report ID        : {reportID}");
@@ -81,9 +85,10 @@ namespace Retail_Management_System
             Console.WriteLine($"[REPORT] '{type}' report generated successfully.");
         }
 
+        // FR19 — Exports the report to the specified file format (xlsx, pdf, csv).
+        // Builds a filename from the report type and ID, then confirms the export.
         public void exportReport(string format)
         {
-
             if (string.IsNullOrWhiteSpace(format))
             {
                 Console.WriteLine("[REPORT] Export format cannot be empty. " +
@@ -95,7 +100,6 @@ namespace Retail_Management_System
 
             Console.WriteLine($"[REPORT] Exporting report as {format.ToUpper()}...");
             Console.WriteLine($"[REPORT] Serialising data to {format.ToUpper()} format...");
-
             Console.WriteLine($"[REPORT] Export complete → {filename}");
             Console.WriteLine($"[REPORT] File size: 2.4 MB  |  " +
                               $"Export time: {DateTime.Now:HH:mm:ss}");

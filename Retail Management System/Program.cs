@@ -116,10 +116,10 @@ namespace Retail_Management_System
 
         static void Header(string title, string fr)
         {
-            Console.WriteLine("══════════════════════════════════════════════════");
+            Console.WriteLine("__________________________________________________");
             Console.WriteLine($"  {title}");
             Console.WriteLine($"  {fr}");
-            Console.WriteLine("══════════════════════════════════════════════════");
+            Console.WriteLine("__________________________________________________");
             Console.WriteLine();
         }
 

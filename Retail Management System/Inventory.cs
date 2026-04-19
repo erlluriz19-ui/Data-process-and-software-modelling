@@ -6,15 +6,20 @@ using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
+    // Manages the collection of products in a store or warehouse.
+    // Inventory holds references to Products but does not own them exclusively.
+    // FR14, FR15, FR16
     public class Inventory
     {
-
         public int inventoryID;
 
+        // Aggregation — list of product references (not owned, not destroyed with Inventory)
         public List<Product> products = new List<Product>();
 
+        // Stock alert fires when a product falls below this threshold (FR16)
         private const int StockAlertThreshold = 5;
 
+        // FR15 — Returns and displays all products with their current stock status
         public List<Product> viewInventory()
         {
             Console.WriteLine($"[INVENTORY] Inventory #{inventoryID} — " +
@@ -34,9 +39,10 @@ namespace Retail_Management_System
             return products;
         }
 
+        // FR14, FR5 — Finds the product and delegates the stock change to Product.updateStock().
+        // After updating, checks if a low-stock alert should fire (FR16).
         public void updateStock(int productID, int quantity)
         {
-
             Product product = products.FirstOrDefault(p => p.productID == productID);
 
             if (product == null)
@@ -46,8 +52,10 @@ namespace Retail_Management_System
                 return;
             }
 
+            // Delegate to Product — keeps stock validation logic in one place (high cohesion)
             product.updateStock(quantity);
 
+            // FR16 — Raise alert if stock has dropped below threshold
             if (product.stockQuantity < StockAlertThreshold)
             {
                 Console.WriteLine($"[ALERT] *** LOW STOCK ALERT *** " +
@@ -58,6 +66,7 @@ namespace Retail_Management_System
             }
         }
 
+        // Adds a new product to the inventory
         public void addProduct(Product product)
         {
             if (product == null)

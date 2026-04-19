@@ -6,16 +6,20 @@ using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
+    // Represents a single line item inside an online Order.
+    // Part of the Composition relationship — Order ◆──── OrderItem (1..*).
+    // Created and owned by an Order object.
+    // FR8
     public class OrderItem
     {
-
         public int quantity;
-
         public double subtotal;
 
+        // FR8 — Calculates the line subtotal (price x quantity) and stores it.
+        // Rounds to 2 decimal places to avoid floating-point precision issues.
         public double calculateSubtotal(double price, int quantity)
         {
-
+            // Guard: quantity and price must be valid
             if (quantity <= 0)
             {
                 Console.WriteLine("[ORDER ITEM] Quantity must be at least 1.");

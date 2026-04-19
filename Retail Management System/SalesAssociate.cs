@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
+    // Represents an in-store Sales Associate who operates the POS terminal.
+    // Extends User (Inheritance) — reuses login, logout, and shared account fields.
+    // FR1, FR2, FR3, FR4, FR5
     public class SalesAssociate : User
     {
         private int _employeeID;
@@ -16,6 +19,7 @@ namespace Retail_Management_System
             private set { _employeeID = value; }
         }
 
+        // Calls base(...) to initialise inherited User fields
         public SalesAssociate(int userId, string name, string email,
                               string password, int employeeID)
             : base(userId, name, email, password)
@@ -23,6 +27,10 @@ namespace Retail_Management_System
             _employeeID = employeeID;
         }
 
+        // FR1, FR3, FR4, FR5 — Processes an in-store sale.
+        // Sale and Payment are passed in from Program.cs (low coupling).
+        // Adds items to the sale, calculates the total, processes payment,
+        // updates inventory, and generates a receipt on success.
         public bool processSale(Sale sale, Payment payment, List<SaleItem> items)
         {
             if (items == null || items.Count == 0)
@@ -34,9 +42,11 @@ namespace Retail_Management_System
 
             Console.WriteLine($"[POS] Processing sale with {items.Count} item(s)...");
 
+            // Add each scanned item to the sale record
             foreach (SaleItem item in items)
                 sale.items.Add(item);
 
+            // FR3 — Calculate total and assign to payment amount
             double total = sale.calculateTotal(items);
             payment.amount = total;
 
@@ -46,6 +56,7 @@ namespace Retail_Management_System
 
             if (paymentSuccess)
             {
+                // FR5 — Stock update happens in Program.cs after this returns
                 Console.WriteLine("[POS] Updating inventory stock levels in real time...");
                 Console.WriteLine($"[POS] Sale #{sale.saleID} completed successfully.");
                 generateReceipt(sale.saleID);
@@ -58,6 +69,7 @@ namespace Retail_Management_System
             }
         }
 
+        // FR4 — Prints a receipt for the completed sale
         public void generateReceipt(int saleID)
         {
             Console.WriteLine("------------------------------------------");

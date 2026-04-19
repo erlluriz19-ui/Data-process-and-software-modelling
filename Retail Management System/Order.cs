@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
+    // Represents an online order placed by a Customer.
+    // Composition relationship — Order ◆──── OrderItem (1 to 1..*).
+    // OrderItems are owned by this Order and destroyed with it.
+    // FR8, FR9
     public class Order
     {
-
+        // Private backing fields
         private int _orderID;
         private DateTime _orderDate;
         private string _status;
 
+        // Composition — Order owns its OrderItems
         private List<OrderItem> _items;
 
         public int OrderID
@@ -27,17 +32,20 @@ namespace Retail_Management_System
             private set { _orderDate = value; }
         }
 
+        // Status values: "Pending", "Confirmed", "Cancelled", "Failed"
         public string status
         {
             get { return _status; }
             private set { _status = value; }
         }
 
+        // Read-only external view of the items list
         public IReadOnlyList<OrderItem> Items
         {
             get { return _items.AsReadOnly(); }
         }
 
+        // Constructor — initialises the items list as part of the composition
         public Order(int orderID, DateTime orderDate, string status)
         {
             _orderID = orderID;
@@ -46,6 +54,7 @@ namespace Retail_Management_System
             _items = new List<OrderItem>();
         }
 
+        // Adds an OrderItem to this order (part of the Composition relationship)
         public void AddItem(OrderItem item)
         {
             if (item == null)
@@ -59,9 +68,9 @@ namespace Retail_Management_System
                               $"Total items: {_items.Count}.");
         }
 
+        // FR8, FR9 — Confirms the order and sets status to Confirmed
         public bool placeOrder(List<Product> products)
         {
-
             if (products == null || products.Count == 0)
             {
                 Console.WriteLine("[ORDER] Cannot place an order with no products.");
@@ -78,9 +87,10 @@ namespace Retail_Management_System
             return true;
         }
 
+        // Cancel Order extension point from the Use Case Diagram.
+        // Only Pending or Confirmed orders can be cancelled.
         public void cancelOrder(int orderID)
         {
-
             if (_orderID != orderID)
             {
                 Console.WriteLine($"[ORDER] OrderID {orderID} does not match " +
@@ -96,11 +106,13 @@ namespace Retail_Management_System
             }
             else
             {
+                // Guard: cannot cancel an already cancelled or failed order
                 Console.WriteLine($"[ORDER] Cannot cancel order — " +
                                   $"current status is '{_status}'.");
             }
         }
 
+        // Returns the sum of all OrderItem subtotals
         public double getTotal()
         {
             double total = 0;
