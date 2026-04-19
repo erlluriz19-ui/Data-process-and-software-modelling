@@ -176,6 +176,7 @@ namespace Retail_Management_System
             james.updateStock(2210, -2, inventory);
         }
 
+        //chatgpt implemented this one
         static void DemoBrowseProducts()
         {
             Header("BROWSE PRODUCTS ONLINE", "FR6 — Customer Product Search");

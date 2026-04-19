@@ -38,7 +38,7 @@ namespace Retail_Management_System
 
         // FR6 — Searches the product catalogue by keyword and returns matching results.
         // The catalogue is passed in (low coupling — Customer does not own the catalogue).
-        // was implemented with the assistance of ChatGPT. This allows case-insensitive
+        //This allows case-insensitivivity
         // keyword matching across the product catalogue in a clean and readable way.
         public List<Product> browseProducts(string keyword, List<Product> catalogue)
         {
