@@ -43,22 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.cs" />
-    <Compile Include="Inventory.cs" />
-    <Compile Include="ITAdministrator.cs" />
-    <Compile Include="Manager.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="OrderItem.cs" />
-    <Compile Include="Payment.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Report.cs" />
-    <Compile Include="Sale.cs" />
-    <Compile Include="SaleItem.cs" />
     <Compile Include="SalesAssociate.cs" />
     <Compile Include="User.cs" />
-    <Compile Include="WarehouseStaff.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
