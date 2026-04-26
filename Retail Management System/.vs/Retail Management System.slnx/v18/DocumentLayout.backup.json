@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|c:\\users\\matty\\documents\\github\\2026_s1_-w102-_clocked-in\\data-process-and-software-modelling\\retail management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|c:\\users\\matty\\documents\\github\\2026_s1_-w102-_clocked-in\\data-process-and-software-modelling\\retail management system\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|c:\\users\\matty\\documents\\github\\2026_s1_-w102-_clocked-in\\data-process-and-software-modelling\\retail management system\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\salesassociate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|c:\\users\\matty\\documents\\github\\2026_s1_-w102-_clocked-in\\data-process-and-software-modelling\\retail management system\\salesassociate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:salesassociate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|c:\\users\\matty\\documents\\github\\2026_s1_-w102-_clocked-in\\data-process-and-software-modelling\\retail management system\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\itadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:itadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|c:\\users\\matty\\documents\\github\\2026_s1_-w102-_clocked-in\\data-process-and-software-modelling\\retail management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E4B3EE2-3972-4D1D-B7CE-623FD5BDA446}|Retail Management System.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,144 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Inventory.cs",
-              "RelativeDocumentMoniker": "Inventory.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Inventory.cs",
-              "RelativeToolTip": "Inventory.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwDcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T02:50:22.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Product.cs",
-              "RelativeDocumentMoniker": "Product.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Product.cs",
-              "RelativeToolTip": "Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T02:50:13.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAAAC4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T02:15:22.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\User.cs",
-              "RelativeDocumentMoniker": "User.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\User.cs",
-              "RelativeToolTip": "User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T20:11:19.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "SalesAssociate.cs",
               "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\SalesAssociate.cs",
               "RelativeDocumentMoniker": "SalesAssociate.cs",
               "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\SalesAssociate.cs",
               "RelativeToolTip": "SalesAssociate.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAADwv1kAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:46:37.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SaleItem.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\SaleItem.cs",
-              "RelativeDocumentMoniker": "SaleItem.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\SaleItem.cs",
-              "RelativeToolTip": "SaleItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:46:30.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Payment.cs",
-              "RelativeDocumentMoniker": "Payment.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Payment.cs",
-              "RelativeToolTip": "Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:46:19.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Report.cs",
-              "RelativeDocumentMoniker": "Report.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Report.cs",
-              "RelativeToolTip": "Report.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:46:16.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Sale.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Sale.cs",
-              "RelativeDocumentMoniker": "Sale.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Sale.cs",
-              "RelativeToolTip": "Sale.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T19:46:08.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ITAdministrator.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\ITAdministrator.cs",
-              "RelativeDocumentMoniker": "ITAdministrator.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\ITAdministrator.cs",
-              "RelativeToolTip": "ITAdministrator.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwE4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T22:40:41.029Z"
+              "WhenOpened": "2026-04-25T06:37:30.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Customer.cs",
-              "RelativeDocumentMoniker": "Customer.cs",
-              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Customer.cs",
-              "RelativeToolTip": "Customer.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T22:27:10.86Z",
+              "WhenOpened": "2026-04-25T06:32:03.479Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\matty\\Documents\\GitHub\\2026_S1_-W102-_cLocked-In\\Data-process-and-software-modelling\\Retail Management System\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T02:15:22.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
