@@ -13,6 +13,7 @@ namespace Retail_Management_System
         public string email;
         public string password;
 
+        //Constructor called by all subclasses through base() so only written once
         public User(int userID, string name, string email, string password)
         {
             this.userID = userID;
@@ -21,8 +22,10 @@ namespace Retail_Management_System
             this.password = password;
         }
 
+
         public bool login(string email, string password)
         {
+            //compares existing email and password with input
             if (this.email == email && this.password == password)
             {
                 Console.WriteLine($"[Authentication]: Login successful. Welcome, {name}!");
@@ -30,6 +33,7 @@ namespace Retail_Management_System
             }
             else
             {
+                //returns false if input doesn't match existing user's email or password
                 Console.WriteLine("[Authentication]: Login failed. Invalid email or password.");
                 return false;
             }

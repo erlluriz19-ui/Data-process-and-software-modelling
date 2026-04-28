@@ -11,7 +11,8 @@ namespace Retail_Management_System
         public int paymentID;
         public double amount;
         public string status;
-
+        //validates payment details before doing anything
+        //by checking if the string is null, empty or whitespace
         public bool validatePayment(string paymentDetails)
         {
             Console.WriteLine("[PAYMENT] Validating payment details...");
@@ -20,10 +21,12 @@ namespace Retail_Management_System
         }
 
         public bool processPayment()
-        {
-            Console.WriteLine($"[PAYMENT] Processing {amount:F2} via gateway [TLS 1.3]...");
+        {  //encrypts data
+            Console.WriteLine($"[PAYMENT] Processing ${amount:F2} via gateway [TLS 1.3]...");
             validatePayment("details");
 
+            //payment is declined if amount exceeds 1000 (business rule)
+            //notifies customer after
             bool approved = amount <= 1000;
 
             status = approved ? "Success" : "Failed";

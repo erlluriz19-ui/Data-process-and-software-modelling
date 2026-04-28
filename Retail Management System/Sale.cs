@@ -13,6 +13,7 @@ namespace Retail_Management_System
         public double totalAmount;
         public List<SaleItem> items = new List<SaleItem>();
 
+        //loops through every SaleItem and sums their subtotals for grand total
         public double calculateTotal()
         {
             double total = 0;
@@ -20,14 +21,6 @@ namespace Retail_Management_System
                 total += item.subtotal;
             totalAmount = Math.Round(total, 2);
             return totalAmount;
-        }
-
-        public void generateReceipt ()
-        {
-            Console.WriteLine("-----------------------------------");
-            Console.WriteLine($"   Sale ID : {saleID} | Total : {totalAmount}");
-            Console.WriteLine("    Thank you for shopping with us!!");
-            Console.WriteLine("-----------------------------------");
         }
     }
 }

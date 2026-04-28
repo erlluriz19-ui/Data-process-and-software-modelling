@@ -13,6 +13,7 @@ namespace Retail_Management_System
         public double price;
         public int stockQuantity;
 
+        //initializes product fields when object created
         public Product(int productID, string name, double price, int stockQuantity)
         {
             this.productID = productID;
@@ -21,6 +22,7 @@ namespace Retail_Management_System
             this.stockQuantity = stockQuantity;
         }
 
+        //stops stock from going negative and updates stock quantity (business rule)
         public void updateStock(int quantity)
         {
             if (stockQuantity + quantity < 0)
@@ -31,6 +33,7 @@ namespace Retail_Management_System
             stockQuantity += quantity;
             Console.WriteLine($"[PRODUCT] '{name}' stock updated. New quantity: {stockQuantity}");
         }
+        //returns formatted string of all fields and is automaticall called when product object is printed to console
         public override string ToString()
         {
             return $"[ProductID: {productID}, Name: {name}, Price: ${price:F2}, Stock: {stockQuantity}]";
