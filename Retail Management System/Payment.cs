@@ -39,4 +39,37 @@ namespace Retail_Management_System
             return approved;
         }
     }
+
+    public class CardPayment : IPaymentStrategy
+    {
+        public bool Pay(double amount)
+        {
+            Console.WriteLine($"[CARD] Processing ${amount:F2} via card gateway [TLS 1.3]...");
+            bool approved = amount <= 1000;
+            Console.WriteLine($"[CARD] {(approved ? "APPROVED" : "DECLINED")}");
+            return approved;
+        }
+    }
+
+    public class CashPayment : IPaymentStrategy
+    {
+        public bool Pay(double amount)
+        {
+            Console.WriteLine($"[CASH] Received ${amount:F2} in cash. Payment accepted.");
+            return true;
+        }
+    }
+
+    public class OnlinePayment : IPaymentStrategy
+    {
+        public bool Pay(double amount)
+        {
+            Console.WriteLine($"[ONLINE] Processing ${amount:F2} via online gateway...");
+            bool approved = amount <= 2000;
+            Console.WriteLine($"[ONLINE] {(approved ? "APPROVED" : "DECLINED")}");
+            return approved;
+        }
+    }
+
+
 }

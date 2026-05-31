@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
-    public enum OrderStatusEnum
+    public interface IPaymentStrategy
     {
-        Pending,
-        Confirmed,
-        Cancelled,
-        Failed
+        bool Pay(double amount);
     }
 }
