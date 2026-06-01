@@ -1,8 +1,5 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Retail_Management_System
 {
@@ -13,7 +10,7 @@ namespace Retail_Management_System
         public double totalAmount;
         public List<SaleItem> items = new List<SaleItem>();
 
-        //loops through every SaleItem and sums their subtotals for grand total
+        // FR3: Sum all SaleItem subtotals
         public double calculateTotal()
         {
             double total = 0;
@@ -21,6 +18,12 @@ namespace Retail_Management_System
                 total += item.subtotal;
             totalAmount = Math.Round(total, 2);
             return totalAmount;
+        }
+
+        // FR5: Generate receipt string
+        public void generateReceipt()
+        {
+            Console.WriteLine($"  [SALE] Receipt for Sale ID {saleID} | Total: ${totalAmount:F2}");
         }
     }
 }

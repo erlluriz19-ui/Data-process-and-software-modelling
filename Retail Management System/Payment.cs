@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace Retail_Management_System
 {
@@ -11,65 +7,39 @@ namespace Retail_Management_System
         public int paymentID;
         public double amount;
         public string status;
-        //validates payment details before doing anything
-        //by checking if the string is null, empty or whitespace
+
+        // FR11: Validate payment details
         public bool validatePayment(string paymentDetails)
         {
-            Console.WriteLine("[PAYMENT] Validating payment details...");
-
+            Console.WriteLine("  [PAYMENT] Validating payment details...");
             return !string.IsNullOrWhiteSpace(paymentDetails);
         }
 
+        // FR10: Process payment - default method (no strategy)
         public bool processPayment()
-        {  //encrypts data
-            Console.WriteLine($"[PAYMENT] Processing ${amount:F2} via gateway [TLS 1.3]...");
+        {
+            Console.WriteLine($"  [PAYMENT] Processing ${amount:F2} via gateway [TLS 1.3]...");
             validatePayment("details");
-
-            //payment is declined if amount exceeds 1000 (business rule)
-            //notifies customer after
             bool approved = amount <= 1000;
-
             status = approved ? "Success" : "Failed";
-            Console.WriteLine($"[PAYMENT] Gateway: {(approved ? "Approved" : "Declined")}. Status - {status}.");
-
+            Console.WriteLine($"  [PAYMENT] Gateway: {(approved ? "Approved" : "Declined")}. Status: {status}.");
             if (!approved)
-            {
-                Console.WriteLine("[PAYMENT] Customer notified. Retry window: 24 hours.");
-            }
+                Console.WriteLine("  [PAYMENT] Customer notified. Retry window: 24 hours.");
             return approved;
         }
-    }
 
-    public class CardPayment : IPaymentStrategy
-    {
-        public bool Pay(double amount)
+        // FR10: Process payment with Strategy pattern
+        public bool processPayment(double amt, IPaymentStrategy strategy)
         {
-            Console.WriteLine($"[CARD] Processing ${amount:F2} via card gateway [TLS 1.3]...");
-            bool approved = amount <= 1000;
-            Console.WriteLine($"[CARD] {(approved ? "APPROVED" : "DECLINED")}");
-            return approved;
+            amount = amt;
+            Console.WriteLine($"  [PAYMENT] Payment ID: {paymentID}");
+            validatePayment("details");
+            bool result = strategy.Pay(amount);
+            status = result ? "Success" : "Failed";
+            Console.WriteLine($"  [PAYMENT] Final status: {status}");
+            if (!result)
+                Console.WriteLine("  [PAYMENT] FR13: Customer notified of failure. Retry window: 24 hours.");
+            return result;
         }
     }
-
-    public class CashPayment : IPaymentStrategy
-    {
-        public bool Pay(double amount)
-        {
-            Console.WriteLine($"[CASH] Received ${amount:F2} in cash. Payment accepted.");
-            return true;
-        }
-    }
-
-    public class OnlinePayment : IPaymentStrategy
-    {
-        public bool Pay(double amount)
-        {
-            Console.WriteLine($"[ONLINE] Processing ${amount:F2} via online gateway...");
-            bool approved = amount <= 2000;
-            Console.WriteLine($"[ONLINE] {(approved ? "APPROVED" : "DECLINED")}");
-            return approved;
-        }
-    }
-
-
 }
