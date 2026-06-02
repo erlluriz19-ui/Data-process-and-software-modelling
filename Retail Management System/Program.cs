@@ -139,7 +139,7 @@ namespace Retail_Management_System
                         if (found != null)
                             found.login(email, pass);
                         else
-                            Console.WriteLine("  [AUTH] No account found with that email.");
+                            Console.WriteLine("  [AUTH] Invalid credential(s)");
                         Console.WriteLine();
                         break;
                     case "2":
@@ -148,7 +148,7 @@ namespace Retail_Management_System
                         if (logoutUser != null)
                             logoutUser.logout();
                         else
-                            Console.WriteLine("  [AUTH] No account found with that email.");
+                            Console.WriteLine("  [AUTH] Invalid credential(s).");
                         Console.WriteLine();
                         break;
                     case "0": back = true; break;

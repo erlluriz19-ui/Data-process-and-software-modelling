@@ -24,7 +24,7 @@ namespace Retail_Management_System
                 Console.WriteLine($"  [AUTH] Login successful. Welcome, {name}!");
                 return true;
             }
-            Console.WriteLine("  [AUTH] Login failed. Invalid email or password.");
+            Console.WriteLine("  [AUTH] Invalid Credential(s).");
             return false;
         }
 
